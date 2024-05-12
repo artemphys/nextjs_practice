@@ -50,3 +50,8 @@ export interface CustimFilterProps {
   title: string;
   options: OptiponProps[];
 }
+
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
+}
