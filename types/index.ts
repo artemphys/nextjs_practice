@@ -41,3 +41,12 @@ export interface FilterProps {
 export interface HomeProps {
   searchParams: FilterProps;
 }
+
+export interface OptiponProps {
+  title: string;
+  value: string;
+}
+export interface CustimFilterProps {
+  title: string;
+  options: OptiponProps[];
+}
