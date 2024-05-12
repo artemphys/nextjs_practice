@@ -38,6 +38,6 @@ export interface FilterProps {
   model: string;
 }
 
-interface HomeProps {
+export interface HomeProps {
   searchParams: FilterProps;
 }
